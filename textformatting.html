@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Text Formatting Document</title>
+    <style>
+        body {
+            margin-bottom:1000px;
+        }
+        div {
+            width:500px;
+            border:2px solid black;
+            margin:10px auto;
+            padding:20px;
+        }
+        h2 {
+            border:2px solid black;
+            padding:20px;
+            text-align: center;
+        }
+        #color h2 {
+            color:green;
+            background-color:yellow;
+        }
+        #color h2:nth-child(2) {
+            color:white;
+            background-color:red;
+        }
+        #TC {
+            width:800px;
+            height:500px;
+            background-image:url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80);
+            background-position:center;
+            background-size:contain;
+        }
+        h3 {
+            width:500px;
+            padding:50px;
+            margin:30px auto;
+            background-color:rgba(255,0,0,0.6);
+        }
+        a {
+            text-decoration:none;
+        }
+        h4 {
+            text-decoration:line-through;
+        }
+        #TD p {
+            text-indent:90px;
+            letter-spacing: 5px;
+        }
+        #TD span {
+            word-spacing:20px;
+        }
+        #boxshadow {
+            border:none;
+            width:500px;
+            padding:30px;
+            text-align:center;
+            box-shadow:0px 0px 100px rgb(181,23,23);
+
+        }
+        #boxshadow h1 {
+            text-shadow:0px 0px 5px green;
+            color:lightgreen;
+        }
+        #boxshadow p {
+            word-spacing:30px;
+        }
+    </style>
+</head>
+<body><div>
+    <p style="font-size:xx-large;text-align:center;">Text align property</p>
+    <h2>Welcome to geekster</h2>
+    <h2 style="text-align:right;color:white;
+    background-color:blue">Welcome to geekster</h2>
+    <h2 style="text-align:left">Welcome to geekster</h2>
+</div>
+<div id="color">
+    <p style="font-size:xx-large;text-align:center">Color property</p>
+    <h2>Css is so easy</h2>
+    <h2>Css is so easy</h2>
+</div>
+<div id="TC">
+    <h3>transparent color</h3>
+</div>
+<div id="TD">
+    <h4>Geeekster</h4>
+    <a href="">Anchor element</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati soluta nulla aliquid ullam facilis earum labore consectetur quas ab eveniet delectus iure inventore ipsam sint voluptate et magni nemo, facere velit ipsa perferendis sunt esse distinctio? Veritatis eligendi, illum, quisquam at molestias, amet exercitationem optio vel accusantium enim voluptate autem?</p>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium tempore quibusdam tempora. Nihil ullam, dolor maiores rerum soluta quidem vero voluptatem repellat excepturi culpa laboriosam! Odit quidem voluptate molestias distinctio. Et, quia neque. Dolorem nesciunt quae recusandae et hic aperiam quidem qui, quaerat blanditiis odio iste, distinctio facilis ut!</span>
+</div>
+<div id="boxshadow">
+    <h1>Box shadow</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere perferendis nihil iste veniam deserunt obcaecati ex inventore quam quae, praesentium, repudiandae omnis animi quisquam quod, recusandae doloremque rem laborum cumque tempore nostrum dicta veritatis. Excepturi, quia nostrum. Tempore corrupti magni distinctio ut error quia ab nisi atque? Voluptatibus, amet illo.</p>
+</div>
+</body>
+</html>
